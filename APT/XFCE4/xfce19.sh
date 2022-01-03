@@ -9,7 +9,7 @@ sudo apt-mark hold udisks2
 sudo apt-get install keyboard-configuration -y
 sudo apt-get install tzdata -y
 sudo apt-get install sudo wget nano inetutils-tools dialog -y
-sudo apt-get install xfce4 xfce4-goodies xfce4-terminal exo-utils tigervnc-standalone-server tigervnc-common dbus-x11 --no-install-recommends -y
+sudo apt-get install gnome tigervnc-standalone-server tigervnc-common dbus-x11 --no-install-recommends -y
 sudo apt-get clean
 mkdir -p ~/.vnc
 wget https://raw.githubusercontent.com/Techriz/AndronixOrigin/master/APT/XFCE4/xstartup -P ~/.vnc/
